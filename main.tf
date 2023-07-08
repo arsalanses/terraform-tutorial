@@ -14,9 +14,9 @@ provider "aws" {
   secret_key = var.secret_key
 }
 
-resource "aws_iam_user" "lb" {
-  name = "loadbalancer"
-  tags = {
-    tag-key = "terraform"
-  }
-}
+# resource "aws_iam_user" "lb" {
+#   name = "loadbalancer"
+#   tags = {
+#     tag-key = "terraform"
+#   }
+# }
